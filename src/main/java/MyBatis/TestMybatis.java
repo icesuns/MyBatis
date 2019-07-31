@@ -19,7 +19,7 @@ public class TestMybatis {
         try{
 //            Student student = mapper.getStudentById(2);
 //            System.out.println(student.getName());
-            mapper.updateStudentAgeById(2, 8);
+            mapper.updateStudentAgeById(2, 6);
             sqlSession.commit();
             sqlSession.close();
         }catch (Exception e){
